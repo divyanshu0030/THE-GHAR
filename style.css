@@ -92,11 +92,11 @@ font-size:22px;
 margin-bottom:30px;
 }
 
-.buttons{
-display:flex;
-justify-content:center;
-flex-wrap:wrap;
-gap:15px;
+.btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
 /* Buttons */
@@ -188,9 +188,21 @@ transform:translateY(-12px);
 }
 
 .card i{
-font-size:55px;
-color:#7E57C2;
-margin-bottom:20px;
+    width:90px;
+    height:90px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0 auto 20px;
+    background:#ff7a00;
+    color:#fff;
+    border-radius:50%;
+    font-size:38px;
+    box-shadow:0 10px 25px rgba(255,122,0,.35);
+}
+
+.card:hover i{
+    transform:scale(1.12) rotate(8deg);
 }
 
 .card h3{
@@ -199,9 +211,10 @@ color:#4E342E;
 }
 
 .card h4{
-margin-top:18px;
-color:#8D6E63;
-font-size:28px;
+    font-size:24px;
+    font-weight:700;
+    color:#8b6a5b;
+    margin-top:20px;
 }
 
 /* Amenities */
@@ -398,9 +411,9 @@ font-size:34px;
 font-size:24px;
 }
 
-.btn{
-padding:12px 20px;
-font-size:14px;
+.btn i{
+    font-size: 22px;
+    color: #fff;
 }
 
 .gallery img{
